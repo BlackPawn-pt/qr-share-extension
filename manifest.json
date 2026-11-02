@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "QR-Share — QR-код текущей страницы",
+  "version": "1.0.0",
+  "description": "Показывает QR-код текущего URL, чтобы мгновенно открыть эту же страницу на телефоне.",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["qrcode.min.js", "content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
