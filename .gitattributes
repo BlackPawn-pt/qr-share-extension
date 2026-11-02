@@ -1,0 +1,5 @@
+# Нормализация переносов строк: в репозитории LF, в рабочей копии — как ОС
+* text=auto
+*.png binary
+*.jpg binary
+*.ico binary
